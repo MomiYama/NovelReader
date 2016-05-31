@@ -1,0 +1,192 @@
+body{
+    min-width: 180px;
+    margin: 0;
+    background-color: rgb(251, 248, 241);
+    font-size: 1.1rem;
+    font-family: ".HiraKakuInterface-W2", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W2", "NotoSansCJKjp-Thin", 游ゴシック体, "Yu Gothic", YuGothic, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-weight: lighter;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-text-size-adjust: none;
+}
+
+#cover{
+    display: block;
+    width: 100%;
+    height: 100vh;
+}
+
+#wrapper{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#divload{
+    position: relative;
+    width: 100%;
+}
+#button_start{
+    background-image: url(../img/img_icon_autoplay_play@3x.png);
+    background-repeat: no-repeat;
+    background-size: 60px;
+    background-position: center;
+    position: fixed;
+    text-align: center;
+    top: 80vh;
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    -webkit-appearance:none;
+    z-index: 100;
+    width: 100%;
+}
+
+#btnN{
+    -webkit-appearance:none;
+    width: 60px;
+    height: 60px;
+    opacity: 0;
+}
+
+#btn_start{
+/*    background-image: url(../img/img_icon_autoplay_play@3x.png);
+    background-repeat: no-repeat;
+    background-size: 60px;
+    background-position: center;
+    height: 60px;
+*/}
+
+p {
+    line-height: 36px;
+    text-align: justify;
+    margin: 10vh 20px 3vh 20px;
+    z-index: 10;
+}
+
+div{
+    display: block;
+    overflow: hidden;
+}
+
+img{
+    z-index: 10;
+}
+
+
+div.comment-right {
+    position: relative;
+    left: 0px;
+    width: 100%;
+    min-width: 320px;
+    margin: 10px 20px 50px 20px;
+    float: right;
+}
+
+div.comment-right > img:first-child {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    float: right;
+    padding-top: 30px;
+    padding-bottom: 45px;
+}
+
+div.comment-right > img:nth-of-type(2) {
+    position: absolute;
+    right: 55px;
+    width: auto;
+    height: 8rem;
+}
+
+div.comment-left {
+    position: relative;
+    right: 0px;
+    width: 100%;
+    min-width: 320px;
+    margin: 10px 20px 50px 20px;
+    float: left;
+}
+
+div.comment-left > img:first-child {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 45px;
+}
+
+div.comment-left > img:nth-of-type(2) {
+    position: absolute;
+    left: 60px;
+    height: 8rem;
+}
+
+div.comment-center {
+    position: relative;
+    top 0;
+    min-height: 110px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+img.comment-center {
+    right: 50%;
+    height: 8rem;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body img + p {
+    position: absolute;
+    top: 13px;
+    right: 95px;
+    z-index: 50;
+    color: skyblue;
+    width: 250px;
+}
+
+.artwork {
+    height: 95vh;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.finish-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+#pause{
+    position: fixed;
+    text-align: center;
+    bottom: 10vh;
+    width: 100%;
+    z-index: 100;
+}
+#pause img{
+    width: 20%;
+    margin: auto;
+}
+#play{
+    position: fixed;
+    text-align: center;
+    bottom: 10vh;
+    width: 100%;
+    z-index: 100;
+}
+#play img{
+    width: 20%;
+    margin: auto;
+}
